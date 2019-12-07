@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Anc3_Demo_Prof.jnlp">
+  <information>
+    <title>Anc3_Demo_Prof</title>
+    <vendor>bruno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Anc3_Demo_Prof.jar" size="4381" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Anc3_Demo_Prof" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="anc3_demo_prof.Demo"  name="Anc3_Demo_Prof" />
+  <update check="always"/>
+</jnlp>
